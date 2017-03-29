@@ -71,7 +71,11 @@ int main(int argc, char const *argv[])
 		
 		printf("Voici le temps obtenu : %f\n\n", (float)(stop-start));
 		
+<<<<<<< HEAD
+		fprintf(mesures,"%f;\n", (float)(stop-start));
+=======
 		fprintf(mesures,"%f;", (float)(stop-start));
+>>>>>>> be373574c894fb09859c77b815829997b86efe80
 		fclose(mesures);
 	}
 	
